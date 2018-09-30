@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <main>
+      <div class="wizard wizard--style-a">
+        <div class="progress-bar" data-length="45"></div>
+        <ul class="nodes">
+          <li class="nodes__item nodes__item--complete">&checkmark;</li>
+          <li class="nodes__item nodes__item--complete">&checkmark;</li>
+          <li class="nodes__item">&checkmark;</li>
+          <li class="nodes__item">&checkmark;</li>
+          <li class="nodes__item">&checkmark;</li>
+        </ul>
+      </div>
+
+      <div class="wizard wizard--style-b">
+        <div class="progress-bar" data-length="18"></div>
+        <ul class="nodes">
+          <li class="nodes__item nodes__item--complete">&checkmark;</li>
+          <li class="nodes__item">&checkmark;</li>
+          <li class="nodes__item">&checkmark;</li>
+          <li class="nodes__item">&checkmark;</li>
+          <li class="nodes__item">&checkmark;</li>
+        </ul>
+      </div>
+
+      <div class="tab-style">
+        <ul class="tabs">
+          <li class="tabs__item tabs__item--complete">Loan Details</li>
+          <li class="tabs__item tabs__item--complete">Payment Info</li>
+          <li class="tabs__item">MI Rates</li>
+          <li class="tabs__item">Other Fees</li>
+          <li class="tabs__item">Estimate</li>
+        </ul>
+      </div>
+
+    </main>
+    <script src='/javascripts/bar.js'></script>
+  </body>
+</html>
