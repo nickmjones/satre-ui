@@ -1,3 +1,5 @@
+@import 'colors';
+
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
 body {
   padding: 0;
@@ -81,6 +83,8 @@ $tab-height: 3rem;
     position: relative;
     padding: 0 1.5rem;
     color: #444;
+    // add matching border-radius
+    // for first and last elements
     &:first-of-type {
       border-radius: 50px 0 0 50px;
       &:hover {
@@ -98,6 +102,7 @@ $tab-height: 3rem;
       }
     }
     // States
+    // hover state
     &:hover {
       background: #d7d7d7;
       &:after {
@@ -106,24 +111,40 @@ $tab-height: 3rem;
         position: absolute;
         top: 0;
         right: -1.25rem;
-        background: url('/images/buttons.svg') -33px 0 no-repeat;
+        background: url('/images/buttons.svg') -1px 0 no-repeat;
         background-size: $tab-height;
         height: 3rem;
         z-index: 40;
       }
     }
+    // complete state
     &--complete {
       background: #44AF69;
+      &:first-of-type {
+        &:after {
+          opacity: 0;
+        }
+      }
+      &:after {
+        content: "";
+        width: 1.25rem;
+        position: absolute;
+        top: 0;
+        right: -1.25rem;
+        background: url('/images/buttons.svg') -32px 0 no-repeat;
+        background-size: $tab-height;
+        height: 3rem;
+        z-index: 40;
+      }
       &:hover {
         background: #44AF69;
-
         &:after {
           content: "";
           width: 1.25rem;
           position: absolute;
           top: 0;
           right: -1.25rem;
-          background: url('/images/buttons.svg') -1px 0 no-repeat;
+          background: url('/images/buttons.svg') -32px 0 no-repeat;
           background-size: $tab-height;
           height: 3rem;
           z-index: 40;

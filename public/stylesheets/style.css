@@ -89,12 +89,24 @@ body {
         position: absolute;
         top: 0;
         right: -1.25rem;
-        background: url("/images/buttons.svg") -33px 0 no-repeat;
+        background: url("/images/buttons.svg") -1px 0 no-repeat;
         background-size: 3rem;
         height: 3rem;
         z-index: 40; }
     .tab-style .tabs__item--complete {
       background: #44AF69; }
+      .tab-style .tabs__item--complete:first-of-type:after {
+        opacity: 0; }
+      .tab-style .tabs__item--complete:after {
+        content: "";
+        width: 1.25rem;
+        position: absolute;
+        top: 0;
+        right: -1.25rem;
+        background: url("/images/buttons.svg") -32px 0 no-repeat;
+        background-size: 3rem;
+        height: 3rem;
+        z-index: 40; }
       .tab-style .tabs__item--complete:hover {
         background: #44AF69; }
         .tab-style .tabs__item--complete:hover:after {
@@ -103,7 +115,7 @@ body {
           position: absolute;
           top: 0;
           right: -1.25rem;
-          background: url("/images/buttons.svg") -1px 0 no-repeat;
+          background: url("/images/buttons.svg") -32px 0 no-repeat;
           background-size: 3rem;
           height: 3rem;
           z-index: 40; }

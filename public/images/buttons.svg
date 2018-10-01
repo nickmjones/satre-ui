@@ -1,11 +1,11 @@
-<svg width="82" height="82" viewBox="0 0 82 82" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1 81V1L25.6875 40.3846L1 81Z" fill="#44AF69"/>
+<svg width="75" height="82" viewBox="0 0 75 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M50 81V1L74.6875 40.3846L50 81Z" fill="#44AF69"/>
 <g filter="url(#filter0_i)">
-<path d="M28.1562 81V1L52.8438 40.3846L28.1562 81Z" fill="#EFEFEF"/>
+<path d="M25.1562 81V1L49.8438 40.3846L25.1562 81Z" fill="#EFEFEF"/>
 </g>
-<path d="M55.3125 81V1L80 40.3846L55.3125 81Z" fill="#D7D7D7"/>
+<path d="M0 81V1L24.6875 40.3846L0 81Z" fill="#D7D7D7"/>
 <defs>
-<filter id="filter0_i" x="28.1562" y="1" width="24.6875" height="80" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_i" x="25.1562" y="1" width="24.6875" height="80" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
